@@ -26,7 +26,7 @@ func Init() {
 
 	// Init root endpoint
 	app.All("/", func(c *fiber.Ctx) error {
-		return c.JSON(response.Info("DIFFUSE_ROOT_V1"))
+		return c.JSON(response.Success("DIFFUSE_ROOT_V1"))
 	})
 
 	// Init API endpoints
