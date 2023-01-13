@@ -1,0 +1,9 @@
+/*
+!/endpoints
+!/loaders
+!/types
+!/utils
+!/.gitignore
+!/config.example.yaml
+!/go.*
+!/main.go

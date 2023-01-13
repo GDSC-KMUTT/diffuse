@@ -1,0 +1,29 @@
+# Environment type:
+#  - 1 = development
+#  - 2 = production
+environment: 1
+
+# Log level:
+#  - See https://pkg.go.dev/github.com/sirupsen/logrus@v1.8.1#Level
+log_level: 6
+
+# URL root
+frontend_url: http://localhost:3000
+
+# HTTP binding address
+address: :3001
+
+# HTTP Server header
+server_header: diffuse1
+
+# Allowed cross-origin addresses (array)
+cors:
+  - http://localhost:3000
+  - http://localhost:8080
+
+# JWT secret
+jwt_secret: Mwggv7uxq7GAMcsTYJkKaR8R03
+
+# MySQL configuration
+mysql_dsn: root:12345678@tcp(localhost:3306)/homepage?charset=utf8mb4&parseTime=True&loc=Local
+mysql_migrate: true
