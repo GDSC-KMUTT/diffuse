@@ -11,7 +11,7 @@ log_level: 6
 frontend_url: http://localhost:3000
 
 # HTTP binding address
-address: :3001
+address: :3000
 
 # HTTP Server header
 server_header: diffuse1

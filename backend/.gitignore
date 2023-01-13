@@ -1,10 +1,6 @@
-/*
-!/endpoints
-!/functions
-!/loaders
-!/types
-!/utils
+!/**/*.go
 !/.gitignore
 !/config.example.yaml
 !/go.*
 !/main.go
+/*
